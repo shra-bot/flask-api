@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files  
+__pycache__/  
+*.py[cod]  
+*$py.class  
+ 
+# Virtual environment  
+venv/  
+env/  
+*.venv  
+pip-log.txt  
+pip-delete-this-directory.txt  
+ 
+# Environment variables and secrets  
+.env  
+*.key  
+*.pem  
+ 
+# Logs and debug files  
+*.log  
+logs/  
+debug.log  
+ 
+# Ignore database files  
+*.sqlite3  
+db.sqlite3  
+instance/  
+ 
+# Ignore Azure deployment artifacts  
+*.zip  
+*.tar.gz  
+local.settings.json  # For Azure Functions local development  
+host.json  
+.settings/  
+ 
+# Ignore system files  
+.DS_Store  
+Thumbs.db
